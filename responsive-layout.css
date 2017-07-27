@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	background-color: #eebb44;
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+body{
+	font: "Robotto", sans-serif;
+	color: #252525;
+}
+
+header h1{
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+header p{
+	margin-top: 0.5em;
+}
+
+.row{
+	max-width: 1000px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+
+.card{
+	border: 1px solid #E5E5E5;
+	margin-bottom: 20px;
+}
+
+.ray-image, .finn-image, .kylo-image, 
+.poe-image, .chewbacca-image, .yoda-image{
+	width: 100%;
+}
+.ray-who, .finn-who, .kylo-who, 
+.poe-who, .chewbacca-who, .yoda-who{
+	padding: 0 20px;
+}
+
+.ray-who, .finn-who, .kylo-who,
+.poe-who, .chewbacca-who, .yoda-who h3{
+	margin-top: 0;
+  	margin-bottom: 0;
+}
+.ray-who, .finn-who, .kylo-who, 
+.poe-who, .chewbacca-who, .yoda-who p{
+	margin: 0.5em 0;
+	display: block;
+}
+/*still not sure what this is for*/
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after{
+	clear: both;
+}
+
+/* Mobile Defaults*/
+.col-4, .col-12{
+	width: 100%;
+}
+
+.col-4, .col-12{
+	float: left;
+ /* Gutters:
+   * Each column is padded by half-a-gutter on each side,
+   *
+   * Half a gutter is 10px, 10/960 (context) = 1.041666%
+   *
+   */
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+
+/* Non-mobile grid */
+@media only screen and (min-width: 640px){
+	.col-4{
+		width: 33%;
+	}
+
+	.col-12{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+

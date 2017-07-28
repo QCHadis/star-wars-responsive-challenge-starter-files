@@ -41,17 +41,34 @@ header p{
 	padding: 0 20px;
 }
 
-.ray-who, .finn-who, .kylo-who,
-.poe-who, .chewbacca-who, .yoda-who h3{
+/*.ray-who, 
+.finn-who, 
+.kylo-who,
+.poe-who, 
+.chewbacca-who, 
+.yoda-who {
 	margin-top: 0;
   	margin-bottom: 0;
+}*/
+
+h3{
+	margin-bottom: 0.5em;
 }
-.ray-who, .finn-who, .kylo-who, 
-.poe-who, .chewbacca-who, .yoda-who p{
+
+p{
+	margin-top: 0.5em;
+	margin-bottom: 2em;
+}
+/*.ray-who,
+.finn-who, 
+.kylo-who, 
+.poe-who, 
+.chewbacca-who, 
+.yoda-who {
 	margin: 0.5em 0;
 	display: block;
 }
-/*still not sure what this is for*/
+*//*still not sure what this is for*/
 .row::before,
 .row::after {
   display: table;
